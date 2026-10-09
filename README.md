@@ -25,7 +25,9 @@ A mensagem final de amor e gratidão pode ser editada em `dist/index.html`. Não
 
 ## Publicar
 
-A pasta `dist` pode ser hospedada como site estático. Para usar GitHub Pages, selecione uma publicação por GitHub Actions e envie o conteúdo de `dist` como artefato do Pages. Criar o repositório não ativa a hospedagem automaticamente.
+Publicado pelo GitHub Pages: https://mayconcwb.github.io/sete-meses-de-nos/
+
+A publicação usa a branch `main` e a pasta raiz. O `index.html` da raiz abre o app em `dist/`, e `.nojekyll` mantém a publicação estática. Novos commits na branch `main` atualizam o site automaticamente.
 
 As fontes vêm do Google Fonts, com fontes locais de fallback. Nenhuma foto é enviada pelo app. O repositório público torna seus arquivos e textos visíveis para qualquer pessoa.
 
