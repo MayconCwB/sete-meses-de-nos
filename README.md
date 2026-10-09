@@ -6,9 +6,9 @@ Um presente delicado e romântico para celebrar 13 de outubro de 2026, sete mese
 
 - Envelope interativo com a abertura escolhida.
 - Sete cartas em uma janela acessível por teclado, com progresso salvo neste navegador.
-- Espaços para três fotos e duas datas da história de vocês.
+- Galeria com cinco fotos de vocês e duas datas da sua história.
 - Contagem de dias no fuso de São Paulo.
-- Carta final e um convite para um encontro.
+- Carta final com uma mensagem de amor e gratidão para Moh.
 - Layout para celular e computador, com respeito à preferência de movimento reduzido.
 
 ## Ver no computador
@@ -19,9 +19,9 @@ Com Node.js instalado, execute `npm start` e abra http://127.0.0.1:4173. Ou abra
 
 Edite `dist/content.js` para adaptar as sete cartas. As mensagens são sugestões: revise para que reflitam suas palavras e sua história. O texto de abertura aprovado está em `dist/index.html`.
 
-Coloque fotos em `dist/photos/` e substitua cada `src: null` por um caminho como `src: 'photos/nossa-foto.jpg'`. Os espaços atuais são cartões ilustrados, não fotos de vocês. A legenda fica no campo `caption`.
+As cinco fotos estão em `dist/photos/`. Para adicionar ou trocar fotos, edite a lista `photos` em `dist/content.js`, usando um caminho como `src: 'photos/nossa-foto.jpg'`. A legenda fica no campo `caption`. O campo `sideways: true` apresenta a foto girada para a esquerda, sem alterar o arquivo original.
 
-O convite final pode ser editado em `dist/index.html` quando o lugar e o horário forem escolhidos. Não há música configurada: ainda não foi escolhida uma faixa.
+A mensagem final de amor e gratidão pode ser editada em `dist/index.html`. Não há música configurada: ainda não foi escolhida uma faixa.
 
 ## Publicar
 

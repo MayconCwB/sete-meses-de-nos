@@ -41,7 +41,7 @@ content.photos.forEach(photo => {
   const placeholder = document.createElement('div'); placeholder.className = 'photo-placeholder';
   const motif = document.createElement('span'); motif.textContent = photo.motif;
   const note = document.createElement('p'); note.textContent = photo.note; placeholder.append(motif, note);
-  if (photo.src) { const img = document.createElement('img'); img.src = photo.src; img.alt = photo.caption; img.loading = 'lazy'; img.addEventListener('error', () => img.replaceWith(placeholder)); figure.append(img); } else figure.append(placeholder);
+  if (photo.src) { const frame = document.createElement('div'); frame.className = 'photo-frame'; if (photo.sideways) frame.classList.add('sideways'); const img = document.createElement('img'); img.src = photo.src; img.alt = photo.caption; img.loading = 'lazy'; img.addEventListener('error', () => frame.replaceWith(placeholder)); frame.append(img); figure.append(frame); } else figure.append(placeholder);
   const caption = document.createElement('figcaption'); caption.textContent = photo.caption; figure.append(caption); $('photo-grid').append(figure);
 });
 // Calendar days in São Paulo, independent of the visitor's time zone.

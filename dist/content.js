@@ -10,8 +10,10 @@ window.loveContent = {
     { title: 'Você, Moh', subtitle: 'Minha escolha, de novo e de novo.', body: ['Esta última cartinha é para dizer algo simples: é muito bom ter você na minha vida.', 'Que bom ter você fazendo parte de nós. Feliz sete meses, Moh. Que esse seja só mais um começo de tudo que ainda pode florescer entre a gente.'] }
   ],
   photos: [
-    { src: null, caption: 'O começo de algo bonito', note: 'uma foto nossa aqui', motif: '♡' },
-    { src: null, caption: 'Meu lugar favorito', note: 'um instante para guardar', motif: '✧' },
-    { src: null, caption: 'Nós, e tudo que vem', note: 'mais uma lembrança nossa', motif: '♡' }
+    { src: 'photos/nos-01.jpeg', caption: 'O começo de algo bonito', motif: '♡' },
+    { src: 'photos/nos-04.jpeg', caption: 'Você pertinho de mim', motif: '♡' },
+    { src: 'photos/nos-05.jpeg', caption: 'Nós, e tudo que vem', motif: '♡', sideways: true },
+    { src: 'photos/nos-02.jpeg', caption: 'Meu lugar favorito', motif: '✧' },
+    { src: 'photos/nos-03.jpeg', caption: 'A doçura de estar com você', motif: '♡' }
   ]
 };
