@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f3ee"><meta name="description" content="Um cantinho feito com amor para Moh. Sete meses de nós.">
+  <title>Para Moh · Sete meses de nós</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23f8f3ee'/%3E%3Cpath d='M20 30S6 22 6 14a8 8 0 0 1 14-4 8 8 0 0 1 14 4c0 8-14 16-14 16' fill='%23a95166'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css"><script defer src="content.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <div class="intro" id="intro">
+    <div class="intro-inner">
+      <p class="eyebrow">UM PRESENTE, SÓ SEU</p><h1>Para Moh<span>com todo o meu amor.</span></h1>
+      <button class="envelope" id="open-envelope" aria-label="Abrir o envelope para Moh"><span class="envelope-paper">Meu lugar favorito<br>é com você.</span><span class="envelope-front"></span><span class="seal" aria-hidden="true">♥</span></button>
+      <p class="intro-hint">Um toque para abrir. Um mundo de nós lá dentro.</p>
+      <button class="text-button" id="open-text">Abrir meu presente</button>
+    </div><span class="intro-bottom">13.03.2026 &nbsp; — &nbsp; o começo de nós</span>
+  </div>
+  <main id="main" hidden>
+    <header><a href="#home" class="brand">M <span>♡</span> M</a><nav aria-label="Nossas lembranças"><a href="#letters">As cartinhas</a><a href="#memories">Nós dois</a><a href="#forever">Meu amor</a></nav><span class="header-date">13 OUTUBRO 2026</span></header>
+    <section class="hero" id="home"><div class="hero-copy"><p class="eyebrow">SETE MESES DE NÓS</p><h1>Meu lugar favorito<br>é <em>com você.</em></h1><div class="tiny-line"></div><p class="opening">Desde o dia em que te conheci, você foi se tornando meu lugar favorito.</p><p>Preparei este cantinho para guardar nossas lembranças e te contar, de sete jeitos diferentes, como é bom ter você comigo.</p><p class="signature">Com amor, para nós. ♡</p><a class="button" href="#letters">Ler minhas cartinhas <span aria-hidden="true">♡</span></a></div><div class="hero-art" aria-hidden="true"><div class="orbit"></div><span class="art-star star-one">✧</span><span class="art-star star-two">✧</span><div class="love-note"><span class="note-top">uma pequena certeza</span><span class="note-heart">♡</span><p>De todos os lugares,<br>eu escolheria<br><em>você.</em></p><span class="note-bottom">sempre & para sempre</span></div><div class="art-caption">você + eu + tudo que ainda vem</div></div></section>
+    <section class="time-strip" aria-label="Tempo juntos"><p>O nosso <em>desde então.</em></p><div><strong id="days">214</strong><span>dias de nós</span></div><div><strong>7</strong><span>meses em 13 de outubro</span></div><div><strong>∞</strong><span>motivos para ficar</span></div></section>
+    <section class="letters section" id="letters"><div class="section-heading"><p class="eyebrow">PALAVRAS QUE SÃO SUAS</p><h2>Sete cartinhas.<br><em>Um mesmo amor.</em></h2><p>Abra devagar. Cada uma guarda um pedacinho do que sinto por você.</p></div><div class="letter-grid" id="letter-grid"></div><p class="read-progress" id="read-progress" aria-live="polite"></p></section>
+    <section class="memories section" id="memories"><div class="section-heading"><p class="eyebrow">O QUE EU QUERO GUARDAR</p><h2>Nossos pequenos <em>instantes.</em></h2><p>As melhores lembranças têm um pouquinho de você.</p></div><div class="photo-grid" id="photo-grid"></div><div class="timeline"><div><span>13 MARÇO 2026</span><h3>O começo de nós</h3><p>Uma data que ganhou um lugar especial no meu coração.</p></div><span class="timeline-heart" aria-hidden="true">♡</span><div><span>13 OUTUBRO 2026</span><h3>Sete meses de amor</h3><p>E tanta coisa bonita para viver juntinhos.</p></div></div></section>
+    <section class="forever section" id="forever"><p class="eyebrow">E, POR ÚLTIMO…</p><h2>Eu escolheria você.<br><em>Mais uma vez.</em></h2><p>Moh, este presente é pequeno perto do carinho que tenho por você. Mas cada pedacinho dele tem uma intenção: te lembrar de como é bonito ter você na minha vida.</p><p>Que a gente continue encontrando alegria nas coisas simples, cuidando um do outro e construindo lembranças que dão vontade de guardar para sempre.</p><p class="signature">Feliz sete meses para nós. ♡</p><button class="button" id="surprise-button">Tem mais um carinho aqui <span aria-hidden="true">♡</span></button><div id="surprise" class="surprise" hidden><span aria-hidden="true">♡</span><h3>Nosso próximo capítulo</h3><p>Quero um encontro só nosso. Um tempo sem pressa, com você pertinho e mais uma lembrança bonita para guardar.</p><p class="signature">O lugar a gente escolhe. A companhia eu já escolhi: você.</p></div></section>
+    <footer><span>Feito com amor, para Moh.</span><span>Desde 13 de março de 2026 <span aria-hidden="true">♡</span></span><button class="text-button" id="replay">Fechar o envelope</button></footer>
+  </main>
+  <dialog id="letter-dialog" aria-labelledby="dialog-title"><button class="close-dialog" aria-label="Fechar cartinha">×</button><p class="eyebrow" id="dialog-number"></p><h2 id="dialog-title"></h2><div id="dialog-body"></div><p class="signature">Com amor, sempre. ♡</p><button class="text-button" id="next-letter">Próxima cartinha</button></dialog>
+</body>
+</html>
